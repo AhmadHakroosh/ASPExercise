@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Three Classes";
+}
+
+<p>Hello dear user – we’ve selected three new class names for you, and they are 
+    @foreach (var result in ViewBag.results)
+    {
+        <span class="bold">@result</span> 
+    }
+</p>

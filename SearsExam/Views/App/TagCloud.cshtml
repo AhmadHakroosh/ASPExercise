@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Tag Cloud";
+}
+
+<p>
+    @foreach (KeyValuePair<string, int> tag in ViewBag.tags)
+    {
+        <span class="tag" style="font-size: @(((@tag.Value - 1) * 3) + 12)px">@tag.Key</span>
+    }
+</p>
+
+<ul id="classes"></ul>
+<script type="text/javascript">
+    var list = '@Html.Raw(Json.Encode(ViewBag.classes))';
+    var classes = JSON.parse(list);
+</script>
