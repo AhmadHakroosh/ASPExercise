@@ -58,7 +58,7 @@ namespace SearsExam.Controllers
             List<string> classes = new List<string>();
             string[] words;
             //get 200 classes
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 200; i++)
             {
                 className = GetContent("http://classnamer.com/index.txt");
                 classes.Add(className);
