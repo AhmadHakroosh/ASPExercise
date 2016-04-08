@@ -41,3 +41,7 @@ p > span:last-child::after {
 .tag::after {
     content: ' ';
 }
+
+.modal {
+    padding-top: 5%;
+}
