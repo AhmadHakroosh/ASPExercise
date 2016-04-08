@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearsExam", "SearsExam\SearsExam.csproj", "{AD7623C3-67C0-4B3C-9D89-B82ECAB54E84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearsExam.Tests", "SearsExam.Tests\SearsExam.Tests.csproj", "{5487EF69-865E-4061-BEF9-EB7D4602C4E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AD7623C3-67C0-4B3C-9D89-B82ECAB54E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7623C3-67C0-4B3C-9D89-B82ECAB54E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7623C3-67C0-4B3C-9D89-B82ECAB54E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5487EF69-865E-4061-BEF9-EB7D4602C4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5487EF69-865E-4061-BEF9-EB7D4602C4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5487EF69-865E-4061-BEF9-EB7D4602C4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5487EF69-865E-4061-BEF9-EB7D4602C4E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
